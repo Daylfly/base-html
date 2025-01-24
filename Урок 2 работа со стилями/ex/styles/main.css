@@ -12,9 +12,23 @@ body {
 }
 
 .box-text {
-    font-size: 32px;
+    width: 100%;
+    height: 100%;
+    background-color: darkslategray;
+    border-radius: 5px;
 }
-
 .box {
+    width: 100%;
+    height: 100%;
+    background-color: mediumvioletred;
+    border-radius: 5px;
+}
+.men {
+    font-size: 32px;
+    color: black;
+}
+.man {
+
     font-size: 18px;
+    color: black;
 }
