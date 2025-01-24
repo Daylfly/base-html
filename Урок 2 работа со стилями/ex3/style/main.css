@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Comic Sans MS";
+    background-color: white;
+    color: dimgray;
+
+}
+
+
+.container {
+    max-width: 700px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.section {
+    border-radius: 8px;
+    padding: 20px;
+
+}
+
+
+#hobby {
+    background-color: lightblue;
+    color: blue;
+    margin: 10px;
+}
+#future {
+    background-color: pink;
+    color: darkred;
+    margin: 10px;
+}
+
