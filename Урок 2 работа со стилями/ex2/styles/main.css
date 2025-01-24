@@ -10,3 +10,21 @@
     border-radius: 20px;
 
 }
+
+.text-item1 {
+    padding: 10px 20px;
+}
+
+.text-item2 {
+    padding: 10px 20px;
+}
+.text-item3 {
+    padding: 10px 20px;
+}
+.box-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
