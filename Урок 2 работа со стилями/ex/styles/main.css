@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Comic Sans MS";
+    background-color: lightgray;
+    color: deeppink;
+
+}
+
+.box-text {
+    font-size: 32px;
+}
+
+.box {
+    font-size: 18px;
+}
