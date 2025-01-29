@@ -27,12 +27,12 @@ body {
 }
 
 
-#hobby {
+.hobby {
     background-color: lightblue;
     color: blue;
     margin: 10px;
 }
-#future {
+.future {
     background-color: pink;
     color: darkred;
     margin: 10px;
