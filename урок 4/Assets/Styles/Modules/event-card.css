@@ -3,7 +3,7 @@
     border-bottom: 1px solid var(--border);
 }
 
-.events-card__body {
+.event-card__body {
     display: flex;
     align-items: center;
     column-gap: 64px;
@@ -16,7 +16,7 @@
     column-gap: 64px;
 }
 
-.events-card__info-img {
+.event-card__info-img {
     max-width: 240px;
     height: 100vh;
     max-height: 160px;
@@ -27,7 +27,6 @@
     display: grid;
     row-gap: 16px;
 }
-
 .event-card__info-link {
     color: var(--secondary);
     transition: color 200ms;
@@ -41,23 +40,12 @@
     color: var(--accent);
 }
 
-.event-card__info-date {
+.event-card__info-date:has(i) {
     display: flex;
     align-items: center;
     column-gap: 10px;
 }
 
 .event-card__info-date:has(i) i {
-color: var(--primary);
-
-
+    color: var(--primary);
 }
-
-
-
-
-
-
-
-
-
