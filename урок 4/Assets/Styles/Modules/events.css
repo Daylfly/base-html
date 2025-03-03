@@ -1,20 +1,20 @@
 .events:is(.events--section) {
     position: relative;
     overflow: hidden;
-    padding-block: 104px;
     background-color: var(--background);
+    padding-block: 104px;
 }
 
 .events:is(.events--section) .section-decoration:is(.section-decoration--light) {
+    transform: rotate(40deg);
     top: 50px;
     right: -10%;
-    transform: rotate(40deg);
 }
 
 .events:is(.events--section) .section-decoration:is(.section-decoration--dark) {
+    transform: rotate(18deg);
     top: 45px;
     right: -10%;
-    transform: rotate(18deg);
 }
 
 .events:is(.events--section) .events__header {
@@ -26,3 +26,16 @@
 .events:is(.events--section) .events__list {
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

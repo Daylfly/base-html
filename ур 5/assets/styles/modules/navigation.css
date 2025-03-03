@@ -1,4 +1,5 @@
 .navigation {
+    transform: translateX(-35%);
     --blur: 8px;
     padding: 16px 40px;
     background-color: rgba(255, 255, 255, .08);
@@ -44,12 +45,57 @@
     border-radius: 1px;
 }
 
+.header__modal-bt {
+display: none;
+}
+
 .navigation__modal-btn {
     display: none;
 }
 
 @media screen and (max-width: 1440.98px) {
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        min-width: 320px;
+        flex-direction: column;
+        row-gap: 52px;
+        z-index: 80;
+        padding: 40px;
+        background-color: rgba(0,0,0, .7);
+        transform: translateX(-100%);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
 
+    .navigation:is(.is-active) {
+        transform: translateX(0);
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .navigation__menu {
+        row-gap: 24px;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .navigation__modal-bt {
+        width: 100%;
+        display: block;
+    }
+
+    .navigation__modal-btn {
+        width: 100%;
+        display: block;
+    }
+    .navigation__menu-link {
+        font-size: 20px;
+
+    }
 }
 
 @media screen and (max-width: 1140.98px) {
@@ -81,6 +127,12 @@
         flex-direction: column;
         align-items: start;
     }
+
+    .navigation__modal-bt {
+        width: 100%;
+
+    }
+
     .navigation__modal-btn {
         width: 100%;
         display: block;

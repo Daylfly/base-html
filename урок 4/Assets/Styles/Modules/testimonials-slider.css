@@ -1,13 +1,12 @@
 .testimonials-slider {
-    width: 100%;
     position: relative;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .testimonials-slider__wrapper {
-    max-width: 816px !important;
-    width: 100%;
+    width: 860px !important;
     align-self: center;
 }
 
@@ -28,17 +27,10 @@
     border: 1px solid var(--primary);
 }
 
-.testimonials-slider__button:is(.testimonials-slider__button-prev) {
+.testimonials-slider__button:is(.testimonials-slider__button--prev) {
     left: 0;
 }
 
-.testimonials-slider__button:is(.testimonials-slider__button-next) {
+.testimonials-slider__button:is(.testimonials-slider__button--next) {
     right: 0;
 }
-
-
-
-
-
-
-

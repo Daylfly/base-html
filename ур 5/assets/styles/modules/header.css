@@ -31,6 +31,13 @@
 }
 
 @media screen and (max-width: 1440.98px) {
+    .header__menu-burger {
+        display: block;
+    }
+    .header__modal-btn {
+        display: none;
+    }
+}
 
 }
 

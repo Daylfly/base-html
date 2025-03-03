@@ -1,15 +1,14 @@
-.testimonials:is(.testimonial__section) {
+.testimonials:is(.testimonials--section) {
     padding-block: 104px;
-    background-color: var(--gray);
+    background-color: var(--gray) !important;
 }
 
-.testimonials:is(.testimonial__section) .testimonials__container {
+.testimonials:is(.testimonials--section) .testimonials__container {
     display: grid;
     row-gap: 40px;
 }
 
-.testimonials:is(.testimonial__section) .testimonials__header {
+.testimonials:is(.testimonials--section) .testimonials__header {
     display: grid;
     row-gap: 16px;
-
 }
