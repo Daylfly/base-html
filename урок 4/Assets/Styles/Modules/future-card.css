@@ -6,13 +6,21 @@
 }
 
 .future__grid {
-    padding: 110px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    row-gap: 40px;
 }
-
 
 .future-card__wrapper {
     display: grid;
     row-gap: 40px;
+}
+@media screen and (max-width: 768.98px) {
+    .future-card__wrapper {
+        justify-content: center;
+        row-gap: 20px;
+    }
 }
 
 .future-card__header {

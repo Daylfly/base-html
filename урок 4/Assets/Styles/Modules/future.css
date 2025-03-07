@@ -5,12 +5,10 @@
 
 
 .future:is(.future--section) .future__header {
-    max-width: 816px;
-    margin-inline: auto;
     display: grid;
     row-gap: 16px;
-}
 
+}
 
 .future:is(.future--section) .future__header-title-h3,
 .future-card__header-text {
@@ -26,11 +24,12 @@
 .future:is(.future--section) .future__header-title,
 .future:is(.future--section) .future__header-title-h3 {
     text-align: center ;
+
 }
 
 
 .future:is(.future--section) .future__grid {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 80px;
     row-gap: 40px;
@@ -38,8 +37,20 @@
     align-content: center;
 }
 
+@media screen and (max-width: 1140.98px) {
+    .future:is(.future--section) .future__grid {
+        gap: 4px;
+    }
+}
+@media screen and (max-width: 768.98px) {
+    .future:is(.future--section) .future__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .future__description {
     max-width: 608px;
     margin-inline: auto;
     text-align: center;
 }
+

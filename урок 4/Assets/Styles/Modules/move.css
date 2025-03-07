@@ -48,7 +48,9 @@
 .move__description-text {
     margin-top: 100px;
     margin-bottom: 20px;
+}
 
+.register__subscribe-form-left {
 
 }
 
@@ -70,8 +72,20 @@
     align-content: stretch;
 }
 
+@media screen and (max-width: 1140.98px) {
+    .move:is(.move--section) .move__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+}
 
+@media screen and (max-width: 768.98px) {
+    .move:is(.move--section) .move__grid {
+        grid-template-columns: (1fr);
+        gap: 24px;
+    }
 
+}
 
 
 
